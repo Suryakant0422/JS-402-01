@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-402-01</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+      <div class="container">
+        <h1>Google</h1>
+         <div class="serachbar">
+          <i class="fa fa-search lock" aria-hidden="true"></i><input type="text" name="searchbar" id="searchbar"><i class="fa fa-microphone lock2" aria-hidden="true"></i>
+         </div>
+         <div class="buttons">
+            <button id="geekster" type="button">Google Search</button>
+            <button type="button">I'm Feeling Lucky</button>  
+        </div>
+        <div class="langs">
+         <p>Google offered in:</p>
+         <a href="#">हिंदी</a>
+         <a href="#">मराठी</a>
+         <a href="#">বাংলা</a>
+         <a href="#">తెలుగు</a>
+         <a href="#">தமிழ்</a>
+         <a href="#">஗ரைர்க்கு</a>
+         <a href="#">குந்து</a>
+         <a href="#">மைல்லம்</a>
+          </div>
+      </div>
+     <script>
+          document.getElementById("geekster").addEventListener("click", function(){
+            this.innerHTML= "Geekster Search"
+          })
+     </script>
+    
+</body>
+</html>
+
+
+

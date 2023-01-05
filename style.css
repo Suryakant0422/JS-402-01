@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Zen+Dots&display=swap'); 
+
+body{
+    background-color: rgb(53, 54, 58);
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Jost', sans-serif;
+   
+}
+input{
+    width: 650px;
+    height: 50px;
+    margin-top: 20px;
+    border: 2px solid rgb(91, 91, 92);
+    background-color: rgb(53, 54, 58);
+    border-radius: 30px;
+}
+.lock{
+    color: white;
+    position: relative;
+    left: 30px;
+
+}
+.lock2{
+    color: white;
+    position: relative;
+    right: 30px;
+}
+h1{
+    color: white;
+    font-size: 130px;
+    font-weight: 500;
+}
+.buttons{
+    margin: 30px 10px;
+    padding: 5px;
+}
+button{
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    width: 160px;
+    background-color: rgb(91, 91, 92);
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.langs{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    color: white;
+}
+a{
+    text-decoration: none;
+    margin: 0px 5px;
+    color: #8ab4f8;;
+}
